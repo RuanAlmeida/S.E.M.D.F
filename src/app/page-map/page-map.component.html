@@ -1,0 +1,296 @@
+<!-- Parte do Banner -->
+<div class="section light-green darken-1 no-pad-bot z-depth-1 start-splash-section">
+  <div class="container start-splash-container">
+
+    <div class="col s12 l6">
+      <div class="splash-image-container">
+        <h1>Nosso Banner Aqui</h1>
+        <a href="#" class="brand-logo"><img src="./assets/escudo.png"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Parte Corpo Principal! -->
+
+<div class="section white" id="features">
+
+  <div class="container green darken-4">
+
+    <nav >
+      <div class="nav-wrapper light-green">
+        <ul class="left hide-on-med-and-down">
+          <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+          <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+          <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+          <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+        </ul>
+        <a href="#!" class="brand-logo right"><i class="material-icons">cloud</i>Logo</a>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="col s3">
+
+        <div class="card">
+          <div class="card-content">
+            <strong><p>I am a very simple card. I am good at containing small bits of information.</p></strong>
+          </div>
+          <div class="card-tabs">
+            <ul class="tabs tabs-fixed-width">
+              <li class="tab"><a href="#test4">Test 1</a></li>
+              <li class="tab"><a class="active" href="#test5">Test 2</a></li>
+              <li class="tab"><a href="#test6">Test 3</a></li>
+            </ul>
+          </div>
+          <div class="card-content grey lighten-4">
+            <div id="test4">Test 1</div>
+            <div id="test5">Test 2</div>
+            <div id="test6">Test 3</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12">
+            <div class="card-panel teal">
+              <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+          </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col s9">
+
+        <!-- this creates a google map on the page with the given lat/lng from -->
+        <!-- the component as the initial center of the map: -->
+        <agm-map [latitude]="lat" [longitude]="lng">
+          <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+        </agm-map>
+      </div>
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="col s12 m6 center hide-on-small-and-down">
+        <img class="responsive-caneta" src="../assets/mochila.png">
+      </div>
+
+      <div class="col s12 m6">
+        <h5 class="start text-primarycolor">Customise</h5>
+        <ul class="start-feature-list">
+          <li>Choice of <a href="https://kioskbrowser.userecho.com/topic/882681-themes/" target="_blank">10 themes</a></li>
+          <li>Display your logo in the toolbar</li>
+          <li>Use your brandname as the app title</li>
+          <li>Brand the <a href="https://kioskbrowser.userecho.com/topic/905825-custom-error-access-denied-pages/" target=" _blank">error &amp; access denied pages</a></li>
+          <li>Display an image/video/website <a href="https://kioskbrowser.userecho.com/topic/882581-screensaver/" target="_blank">screensaver</a> whilst the device is idle</li>
+          <li><a href="https://kioskbrowser.userecho.com/topics/2306-full-screen-mode-hiding-the-toolbar/" target="_blank">Control visibility of toolbar and system bar</a></li>
+        </ul>
+        <p class="start-paragraph-text text-primarycolor">We also offer a branding facility/customisation service.</p>
+        <p><a href="#custom">GET MORE INFO</a></p>
+      </div>
+
+      <div class="col s6 offset-s3 m6 center hide-on-med-and-up">
+        <img class="responsive-img" src="../assets/mochila.png">
+      </div>
+
+    </div>
+
+    <div class="row" id="features-advanced">
+
+      <div class="col s12 m6">
+        <h5 class="start text-primarycolor">Advanced</h5>
+        <p class="start-paragraph-text text-primarycolor">Kiosk Browser has a number of advanced features.</p>
+        <ul class="start-feature-list">
+          <li><a href="https://kioskbrowser.userecho.com/topic/878500-barcode-scanning/" target="blank">Barcode Scanner</a></li>
+          <li><a href="https://kioskbrowser.userecho.com/topic/922670-nfc/" target="_blank">NFC Reader</a></li>
+          <li>Print pages using <a href="https://kioskbrowser.userecho.com/topic/876321-printing-with-google-cloud-print/" target="_blank">Google Cloud Print</a> or to <a href="https://kioskbrowser.userecho.com/topic/1090348-printing-via-bluetooth/" target="_blank">Bluetooth</a>            devices via JavaScript (ESC/POS)</li>
+          <li><a href="https://kioskbrowser.userecho.com/topic/1094480-standalone-mode/" target="_blank">Standalone mode</a> (behaves like a normal default browser)</li>
+          <li>Powerful <a href="https://kioskbrowser.userecho.com/topic/847040-javascript-functions/" target="_blank">JavaScript interface</a></li>
+          <li><a href="https://kioskbrowser.userecho.com/topics/964-app-drawer/" target="_blank">App Drawer</a> to launch other apps</li>
+          <li><a href="https://kioskbrowser.userecho.com/topic/1110449-xml-import-export" target="_blank">XML Import &amp; Export</a> for copying settings to multiple devices</li>
+          <li>70+ settings to control every aspect of Kiosk Browser</li>
+        </ul>
+
+      </div>
+
+      <div class="col s6 offset-s3 m6 center">
+        <img class="responsive-trio" src="../assets/trio1.png">
+      </div>
+
+    </div>
+
+
+</div>
+
+
+<!-- Parte Informações Sobre a Inscrição da matricula! -->
+
+<div class="section  grey lighten-3" id="remotemanagement">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col s12 m6 ">
+        <h5 class="start text-primarycolor">Informações Sobre a Inscrição da matricula!</h5>
+        <p>Kiosk Browser Remote is our subscription based remote management console for Kiosk Browser. It provides central management functions for all your devices.</p>
+        <blockquote>
+          A subscription costs just £1 GBP / $1.60 USD <strong>per device</strong> <em>per month (volume pricing is available).</em><br> We offer a free 14 day trial with no obligation to subscribe once the trial ends.
+        </blockquote>
+        <p><span class="text-primarycolor" style="font-weight:500;">PRO</span> features are included in the subscription.</p>
+
+        <div class="center">
+          <a class="wistia-popover[height=433,playerColor=7b796a,width=800]waves-effect waves-light btn light-blue darken-3">Ir para matricular</a>
+          <a class="wistia-popover[height=433,playerColor=7b796a,width=800]waves-effect waves-light btn">Ir para Acompanhamento</a>
+          <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+        </div>
+
+      </div>
+
+      <div class="col s6 offset-s3 m6 center">
+        <img class="responsive-img" src="../assets/pc.png">
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Parte Prints de Tela -->
+
+<div class="section light-green darken-1" id="screenshots">
+
+  <div class="container">
+
+    <h5 class="start white-text">Screenshots</h5>
+
+    <div class="row">
+
+      <div class="col s12 m6">
+        <div>
+
+          <div class="material-placeholder"><img src="https://www.android-kiosk.com/wp-content/themes/androidkioskcom/images/screenshots/1.png" class="responsive-img materialboxed z-depth-2 initialized">
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col s12 m6">
+
+        <div class="row">
+
+          <div class="col s12 m6">
+            <div>
+
+              <div class="material-placeholder"><img src="https://www.android-kiosk.com/wp-content/themes/androidkioskcom/images/screenshots/2.png" class="responsive-img materialboxed z-depth-2 initialized">
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col s12 m6">
+
+            <div>
+              <div class="material-placeholder"><img src="https://www.android-kiosk.com/wp-content/themes/androidkioskcom/images/screenshots/3.png" class="responsive-img materialboxed z-depth-2 initialized">
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col s12 m6">
+
+            <div>
+
+              <div class="material-placeholder"><img src="https://www.android-kiosk.com/wp-content/themes/androidkioskcom/images/screenshots/4.png" class="responsive-img materialboxed z-depth-2 initialized">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col s12 m6">
+
+            <div>
+
+              <div class="material-placeholder"><img src="https://www.android-kiosk.com/wp-content/themes/androidkioskcom/images/screenshots/5.png" class="responsive-img materialboxed z-depth-2 initialized">
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="col s12">
+
+        <div class="center">
+
+          <a class="waves-effect waves-light btn white text-primarycolor modal-trigger" style="margin-right:10px;margin-bottom: 5px;" href="#modalBuy" onclick="buySingle()"><i class="mdi mdi-credit-card left"></i>Buy Pro</a>
+          <!--<a class="waves-effect waves-light btn white text-primarycolor" style="margin-right:10px;margin-bottom: 5px;" href="http://sites.fastspring.com/androidkiosk/product/kioskbrowserpro"><i class="mdi mdi-credit-card left" ></i>Buy Pro</a>-->
+          <a class="waves-effect waves-light btn white text-primarycolor" href="https://www.kbremote.net/Home/Start" style="margin-bottom: 5px;"><i class="mdi mdi-television-guide left" style="margin-right:10px;margin-bottom: 5px;"></i>Remote Manage Trial</a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<!-- Parte Painel de Ajuda ao usuario -->
+
+<div class="section  grey lighten-3" id="support">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col s12 m6">
+        <h5 class="font-config-aten">Atenção!</h5>
+        <p class="start-paragraph-text">Em caso de duvidas ou Erros:</p>
+        <ul style="margin-bottom: 16px;padding-left: 16px;">
+          <li style="margin: 14px 0;padding: 0;list-style: initial;font-size:14px;">
+            Está com duvidas sobre as escolas ou matriculas <a href="" class="acesso-font"> Click Aqui e Tire Suas Duvidas!</a>
+          </li>
+          <li style="margin: 14px 0;padding: 0;list-style: initial;font-size:14px;">
+            Encontrou algum erro report <a href="" class="acesso-font"> Clickando Aqui!</a>
+          </li>
+          <li style="margin: 14px 0;padding: 0;list-style: initial;font-size:14px;">
+            Deixe seu email para receber informações!
+          </li>
+          <div class="row">
+            <div class="input-field col s7">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+            <a class="waves-effect waves-light btn env-config-email light-green darken-2"><i class="material-icons right">email</i>Enviar</a>
+          </div>
+        </ul>
+
+      </div>
+
+      <div class="col s6 offset-s3 m6 center">
+        <img class="responsive-aten" src="./assets/aten.png">
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
