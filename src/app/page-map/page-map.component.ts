@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import * as $ from 'jquery';
+declare var $: any;
 
 
 
@@ -19,6 +19,8 @@ export class PageMapComponent implements OnInit {
 
 
   ngOnInit() {
+
+      $(document).ready(function() { $('ul.tabs').tabs(); });
   }
 
 }

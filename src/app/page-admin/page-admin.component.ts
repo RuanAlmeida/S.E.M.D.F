@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'app-page-admin',
@@ -10,6 +11,7 @@ export class PageAdminComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    $(document).ready(function() { $('ul.tabs').tabs(); });
   }
 
 }
