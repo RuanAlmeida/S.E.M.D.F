@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AgmCoreModule } from '@agm/core';
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+import { routing } from './app.routing';
 import { HomeComponent } from './home/home.component';
 import { HeaderRouteingModule } from './header/header-routing.module';
 import { HeaderComponent } from './header/header.component';
@@ -26,9 +26,9 @@ import { PageAdminComponent } from './page-admin/page-admin.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     HeaderRouteingModule,
     MaterializeModule,
+    routing,
     AgmCoreModule.forRoot({
      apiKey: 'AIzaSyBdYvR_YTgtM1HoA-n517hj7H1hzaFp2Qg'
    })
