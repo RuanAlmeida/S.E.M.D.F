@@ -4,10 +4,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { PageAdminComponent } from './page-admin/page-admin.component';
 import { PageMapComponent } from './page-map/page-map.component';
+import { AcompanhamentoComponent } from './acompanhamento/acompanhamento.component';
 
 const APP_ROUTES: Routes = [
   { path: '', component: HomeComponent },
   { path: 'map', component: PageMapComponent },
+  { path: 'acomp', component: AcompanhamentoComponent },
   { path: 'admin', component: PageAdminComponent }
 ];
 

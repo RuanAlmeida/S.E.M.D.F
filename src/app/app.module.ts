@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { PageMapComponent } from './page-map/page-map.component';
 import { PageAdminComponent } from './page-admin/page-admin.component';
+import { AcompanhamentoComponent } from './acompanhamento/acompanhamento.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { PageAdminComponent } from './page-admin/page-admin.component';
     FooterComponent,
     UsuarioComponent,
     PageMapComponent,
-    PageAdminComponent
+    PageAdminComponent,
+    AcompanhamentoComponent
   ],
   imports: [
     BrowserModule,
