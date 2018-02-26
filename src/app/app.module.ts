@@ -6,13 +6,13 @@ import { AgmCoreModule } from '@agm/core';
 import { AppComponent } from './app.component';
 import { routing } from './app.routing';
 import { HomeComponent } from './home/home.component';
-import { HeaderRouteingModule } from './header/header-routing.module';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { PageMapComponent } from './page-map/page-map.component';
 import { PageAdminComponent } from './page-admin/page-admin.component';
 import { AcompanhamentoComponent } from './acompanhamento/acompanhamento.component';
+import { HelpComponent } from './help/help.component';
 
 
 @NgModule({
@@ -24,11 +24,11 @@ import { AcompanhamentoComponent } from './acompanhamento/acompanhamento.compone
     UsuarioComponent,
     PageMapComponent,
     PageAdminComponent,
-    AcompanhamentoComponent
+    AcompanhamentoComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,
-    HeaderRouteingModule,
     MaterializeModule,
     routing,
     AgmCoreModule.forRoot({

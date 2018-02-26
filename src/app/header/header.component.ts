@@ -27,4 +27,12 @@ export class HeaderComponent implements OnInit {
     this.modalActions.emit({action:"modal",params:['close']});
   }
 
+  dirMap() {
+    this.modalActions.emit({action:"modal",params:['routerLink="/map"']});
+  }
+
+  // closeModal() {
+  //   this.modalActions.emit({action:"modal",params:['close']});
+  // }
+
 }

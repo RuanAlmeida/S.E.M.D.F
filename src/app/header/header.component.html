@@ -1,8 +1,8 @@
 <div class="navbar-fixed">
 <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
-  <li><a routerLink="/acomp">Acompanhamento</a></li>
-  <li><a routerLink="/map">Matricula</a></li>
+  <li><a (click)="openModal()" >Acompanhamento</a></li>
+  <li><a  (click)="openModal()">Matricula</a></li>
   <li class="divider"></li>
 </ul>
 
@@ -12,11 +12,44 @@
       <label class="font-logo">S.E.M.D.F</label>
     <ul class="right hide-on-med-and-down">
       <li><a routerLink="/"><i class="material-icons left">home</i>Home</a></li>
-      <li><a href="#!"><i class="material-icons left">question_answer</i>Duvidas</a></li>
+      <li><a routerLink="/help"><i class="material-icons left">question_answer</i>Duvidas</a></li>
       <li><a href="#!"><i class="material-icons left">contacts</i>Contato</a></li>
       <!-- Dropdown Trigger -->
       <li><a class="dropdown-button"  data-activates="dropdown1"><i class="material-icons left">school</i>Escolas<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
 </nav>
-       </div>
+   </div>
+
+<!-- routerLink="/acomp"
+routerLink="/map" -->
+
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal" materialize="modal" [materializeParams]="[{dismissible: false}]" [materializeActions]="modalActions">
+  <div class="modal-content">
+    <h4>Faça login acessar <a class="waves-effect waves-light" (click)="closeModal()"><i class="material-icons left">close</i></a></h4>
+    <hr>
+    <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Password</label>
+        </div>
+      </div>
+      </div>
+    </form>
+  </div>
+  </div>
+  <div class="center-align">
+  <a class="waves-effect waves-light btn" (click)="dirMap()" >Acessar</a>
+  </div>
+</div>
