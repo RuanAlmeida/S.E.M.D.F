@@ -1,8 +1,8 @@
 <div class="navbar-fixed">
 <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
-  <li><a (click)="openModal()" >Acompanhamento</a></li>
-  <li><a  (click)="openModal()">Matricula</a></li>
+  <li><a (click)="openModal('acompanhamento')" >Acompanhamento</a></li>
+  <li><a  (click)="openModal('matricula')">Matricula</a></li>
   <li class="divider"></li>
 </ul>
 
@@ -50,6 +50,6 @@ routerLink="/map" -->
   </div>
   </div>
   <div class="center-align">
-  <a class="waves-effect waves-light btn" (click)="dirMap()" >Acessar</a>
+  <a class="waves-effect waves-light btn" (click)="dirCam()"  >Acessar</a>
   </div>
 </div>
